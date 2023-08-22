@@ -5,7 +5,10 @@ import ContactForm from './components/ContactForm';
 function App() {
   return (
     <div className="App">
-     <ContactForm />
+      <main className= "text-gray-400 bg-sky-900 body-font ">
+      <ContactForm />
+    </main>
+     
     </div>
   );
 }
